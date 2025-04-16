@@ -1,0 +1,28 @@
+# .gitignore (Root of mutual_repo)
+
+# Backend venv and related files
+mutual_fund_broker_backend/venv/
+mutual_fund_broker_backend/.env
+mutual_fund_broker_backend/env
+# Node.js modules for UI
+mutual_fund_broker_ui/node_modules/
+
+# Logs
+*.log
+
+# OS-specific files (macOS, Windows, Linux)
+.DS_Store
+Thumbs.db
+
+# Python cache files
+__pycache__/ 
+*.pyc
+*.pyo
+*.pyd
+
+# IDE/Editor directories
+.vscode/
+.idea/
+
+# Environment variable files
+.env
